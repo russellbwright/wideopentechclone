@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-section {
+    width: 100%;
+    height: 500px;
+    background-image: url(./wideopen-icons/img/wot-masthead-dark.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+
+header {
+padding: 30px 0;
+}
+
+nav {
+ display: flex;
+ margin: 0 auto;
+ position: relative;
+ justify-content: space-between;
+
+}
+
+label {
+    color: #D7D7D7;
+    float: right;
+    font-size: 35px;
+    margin-right: 5%;
+        
+}
+
+
+
+.logo {
+    color: white;
+    float: left;
+    padding-left: 5%;
+    
+}
+
+.logo img{
+    height: 31px;
+    width: 155px;
+    padding-top: 11px;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nav-link-box {
+
+    color: white;
+    font-family: Helvetica, sans-serif;
+    margin-right: 5%;
+    
+}
+
+.middle-main-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+}
+
+.medium-margin {
+    margin: auto;
+
+}
+
+.digital-text-box {
+text-align: left;
+color: white;
+font-family: 'Oswald', sans-serif;
+font-size: 25px;
+font-weight: 500;
+line-height: 20px;
+
+
+
+}
+
+
+.workshop-text-box {
+text-align: center;
+font-size: 155px;
+color: white;
+font-family: 'Oswald', sans-serif;
+font-weight: normal;
+font-weight: 300;
+line-height: 140px;
+margin-bottom: 30px;
+
+}
+
+.div-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+
+.business-sol-text {
+    font-size: 18px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+
+.white-bar {
+    background-color: white;
+    height: 10px;
+    width: 100px;
+    
+}
+.sol{
+    color: salmon;
+}
+
+.ideas {
+    color: #80A53A;
+}
+
+.bottom-big-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    
+}
+
+
+   
+#rounded-button {
+    height: 50px;
+    width: 90%;
+    background: #BDD436;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 30px
+
+}
+
+.text-in-button {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif ;
+    padding-top:17px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 700;
+
+}
+
+#rounded-button:hover {
+    background-color: #CFE161;
+}
+
+
+
+
+@media (max-width: 915px) {
+
+    .nav-link-box {
+        display: none;
+    }
+
+    label {
+
+    }
+}
+
+
+@media (min-width: 915px) {
+
+    #rounded-button {
+        height: 50px;
+        width: 30%;
+        background: #BDD436;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        margin: 30px
+
+}
+
+    label {
+        display: none;
+    }
+}
+
+@media (max-width: 695px){
+
+    .digital-text-box {
+        text-align: center;
+
+    }
+}
